@@ -24,9 +24,34 @@ describe Coinbase::Exchange::Client do
     end
     expect(success)
   end
-  
 end
 
+// spec/account_spec.rb
+
+describe Coinbase::Wallet::Account do
+  before :all do
+    @object_data = {
+      '' => '',
+      '' => '',
+      'balance' => {
+        '' => '',
+        '' => 'BTC'
+      },
+      'native_balance' => {
+        '' => '',
+        '' => 'USD'
+      },
+      'created_at' => '',
+      '' => '',
+      '' => '',
+      '' => ''
+    }
+    
+    @client = Coinbase::Wallet::Client.new(api_key: 'api_key', api_secret: 'api_secret')
+    @object = Coinbase::Wallet::Account.new(@client, @object_data)
+  end
+
+end
 ```
 
 ```
