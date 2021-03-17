@@ -1,4 +1,4 @@
-### coinbase
+### Coinbase
 ---
 https://github.com/coinbase
 
