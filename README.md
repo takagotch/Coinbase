@@ -54,8 +54,20 @@ describe Coinbase::Wallet::Account do
 end
 ```
 
+###### coinbase-ruby
+https://github.com/coinbase/coinbase-ruby
+
 ```
 ```
 
+
+```
+```
+
+```
+```
+
+```
+```
 
 
