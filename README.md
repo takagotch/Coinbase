@@ -4,6 +4,22 @@ https://github.com/coinbase
 
 https://developers.coinbase.com/
 
+###### blog
+https://blog.coinbase.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```rb
 // https://github.com/coinbase/coinbase-exchange-ruby
 // spec/synchronous_spec.rb
